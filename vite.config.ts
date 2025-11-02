@@ -4,8 +4,4 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/vnj-europe-app/',
-  build: {
-    outDir: 'dist'
-  },
-  assetsInclude: ['**/*.html']  // ← переместите сюда!
 });
